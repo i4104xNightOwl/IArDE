@@ -1,0 +1,46 @@
+{
+    "mod": "Mod4",
+    "terminal": "kitty",
+    "border_width": 3,
+    "colors": {
+        "focused": "0xff005577",
+        "focused_inactive": "0xff333333",
+        "unfocused": "0xff222222",
+        "urgent": "0xff900000",
+        "background": "0xff000000"
+    },
+    "layout": {
+        "default": "tiling",
+        "master_ratio": 0.6
+    },
+    "window": {
+        "auto_focus": true,
+        "focus_follows_mouse": false
+    },
+    "keybinds": {
+        "Mod4+Return": "spawn_terminal",
+        "Mod4+q": "kill_focused",
+        "Mod4+d": "spawn_dmenu",
+        "Mod4+s": "layout_stack",
+        "Mod4+w": "layout_tiling",
+        "Mod4+e": "layout_monocle",
+        "Mod4+Shift+e": "cycle_layout",
+        "Mod4+h": "focus_left",
+        "Mod4+j": "focus_down",
+        "Mod4+k": "focus_up",
+        "Mod4+l": "focus_right",
+        "Mod4+Shift+h": "move_left",
+        "Mod4+Shift+j": "move_down",
+        "Mod4+Shift+k": "move_up",
+        "Mod4+Shift+l": "move_right",
+        "Mod4+f": "toggle_fullscreen",
+        "Mod4+Shift+Space": "toggle_floating",
+        "Mod4+Shift+c": "reload_config",
+        "Mod4+Shift+q": "quit"
+    },
+    "applications": {
+        "dmenu": "dmenu_run",
+        "file_manager": "thunar",
+        "web_browser": "firefox"
+    }
+}

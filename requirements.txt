@@ -1,0 +1,19 @@
+# IArDE Window Manager Dependencies
+
+# Core X11 library
+xcffib>=1.4.0
+
+# Optional dependencies for better functionality
+# Uncomment if you want to use these features
+
+# For better terminal detection
+# psutil>=5.8.0
+
+# For configuration file validation
+# jsonschema>=3.2.0
+
+# For logging
+# colorlog>=6.6.0
+
+# For better subprocess handling
+# sh>=1.14.0
