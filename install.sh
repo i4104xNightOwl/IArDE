@@ -6,3 +6,4 @@ makepkg -si
 
 # INSTALL XCB
 sudo pacman -Syu python-pip libxcb xcb-util xcb-util-wm xcb-util-keysyms
+sudo pacman -S sddm neovim kitty
